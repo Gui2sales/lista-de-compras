@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.2s;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.content{
+    margin-top: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px slid #ccc;
+    width: 100%;
+}
+
+table th{
+    background-color: azure;
+}
+
+table td, th{
+    background-color: azure;
+    padding: 1px 5px;
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
